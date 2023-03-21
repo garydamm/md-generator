@@ -4,7 +4,7 @@ from comment_parser import comment_parser
 from src.regex_comment_parser import extract_model_metadata
 from src.doc_writer import DocWriter
 
-src_path = "../resilience_models"
+src_path = "sample_files"
 doc_dir = "model_metadata_doc"
 doc_name = "impact_resilience_model_metadata.md"
 python_mime_type = "text/x-python"
